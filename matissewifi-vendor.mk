@@ -16,21 +16,14 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/matissewifi/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/samsung/matissewifi/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/matissewifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/matissewifi/proprietary/etc/clatd.conf:system/etc/clatd.conf \
     vendor/samsung/matissewifi/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/matissewifi/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/samsung/matissewifi/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/samsung/matissewifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/matissewifi/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/samsung/matissewifi/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/matissewifi/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
-    vendor/samsung/matissewifi/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/matissewifi/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/matissewifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/samsung/matissewifi/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-	vendor/samsung/matissewifi/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so
-    
+    vendor/samsung/matissewifi/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \    
